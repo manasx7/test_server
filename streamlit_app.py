@@ -9,7 +9,7 @@ API_URL = os.getenv(
     "API_URL", "https://blind-saver-performing-editions.trycloudflare.com"
 )
 API_KEY = os.getenv("API_KEY", "change-me")
-HEADERS = {"X-API-KEY": X-API-KEY}
+HEADERS = {"X-API-KEY": API-KEY}
 
 st.title("TCP Server Control Panel")
 
